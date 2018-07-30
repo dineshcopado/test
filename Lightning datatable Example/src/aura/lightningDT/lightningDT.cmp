@@ -1,3 +1,4 @@
+<!--Sample.cmp-->
 <aura:component controller="DTAuraController" implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable">
     
     <!--Declare Attributes-->

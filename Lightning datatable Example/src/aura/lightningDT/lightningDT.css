@@ -11,9 +11,3 @@
     position: relative;
     padding-bottom: 7%;
 }
-
-.THIS .slds-scrollable_y{
-    max-height: 100%;
-    overflow: hidden;
-    
-}

@@ -32,6 +32,7 @@ public class DTAuraController {
         for (Schema.PicklistEntry a: values) {
             allOpts.add(a.getValue());
         }
+      //  allOpts.sort();
         system.debug('allOpts.'+allOpts);
         return allOpts;
     }
@@ -40,18 +41,22 @@ public class DTAuraController {
     public static void updateContact(Map<String, String> m1, String recId)
     {
         String objName = 'contact' ;
-        sobject sObj = Schema.getGlobalDescribe().get(objName).newSObject(recId) ;
-        for(String m : m1.keyset())
-        {
-        sObj.put(m,m1.get(m)) ;
-        }
-        try
-        {
-        update sObj ;
-        }
-        catch(Exception ex){ 
-        system.debug(ex);   
-        }
+sobject sObj = Schema.getGlobalDescribe().get(objName).newSObject(recId) ;
+
+system.debug('map...'+m1);
+
+for(String m : m1.keyset())
+{
+sObj.put(m,m1.get(m)) ;
+
+}
+try
+{
+update sObj ;
+ }
+ catch(Exception ex){ 
+ system.debug(ex);   
+    }
     }
      
 }

@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	 <lightning:navigation aura:id="navId"/>
+     <div>   
+        <lightning:button label="Navigation" title="NavigationRec" onclick="{!c.NavigationRec}" />
+     </div>
+</aura:component>

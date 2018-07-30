@@ -27,4 +27,16 @@ public class TestDataFactory {
      
      }
      
+     public static EmailTemplate createET(Integer numforms) {
+     
+     EmailTemplate et = new EmailTemplate();
+et.isActive = true;
+et.Name = 'name';
+et.DeveloperName = 'test';
+et.TemplateType = 'text';
+et.FolderId = UserInfo.getUserId();
+
+insert et;
+
+return et;}
      }

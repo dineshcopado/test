@@ -1,0 +1,24 @@
+<aura:component controller="CampingListController" implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+
+         <aura:handler name="addItem" event="c:addItemEvent" action="{!c.handleAdditem}"/>
+
+       <!-- NEW EXPENSE FORM -->
+    <lightning:layout >
+        <lightning:layoutItem padding="around-small" size="6">
+          <c:campingListForm/>
+        </lightning:layoutItem>
+    </lightning:layout>
+   
+    
+     <aura:iteration items="{!v.Items}" var="Items">
+                <c:campingListItem item="{!Items}"/>
+            </aura:iteration>
+    
+    
+    
+    
+    
+    
+</aura:component>
