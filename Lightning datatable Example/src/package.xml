@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Send_email</members>
-        <name>CustomLabel</name>
+        <members>AccountManager</members>
+        <members>AccountManagerTest</members>
+        <name>ApexClass</name>
     </types>
     <version>42.0</version>
 </Package>
