@@ -228,6 +228,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>External_lookup__c</fullName>
+        <externalId>false</externalId>
+        <label>External lookup</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
