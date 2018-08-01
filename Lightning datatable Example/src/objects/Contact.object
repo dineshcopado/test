@@ -250,6 +250,14 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Flag_test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Flag test</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -325,6 +333,17 @@
     <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Number_test__c</fullName>
+        <externalId>false</externalId>
+        <label>Number test</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>OtherAddress</fullName>
