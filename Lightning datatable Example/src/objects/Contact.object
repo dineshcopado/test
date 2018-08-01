@@ -95,70 +95,10 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <fieldSets>
-        <fullName>contactFS</fullName>
-        <description>Fieldset for Manage Contacts</description>
-        <displayedFields>
-            <field>LastName</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Phone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Email</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Email_Type__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <label>contactFS</label>
-    </fieldSets>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Amount_Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Amount Type</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Type A</fullName>
-                    <default>false</default>
-                    <label>Type A</label>
-                </value>
-                <value>
-                    <fullName>Type B</fullName>
-                    <default>false</default>
-                    <label>Type B</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Amount__c</fullName>
-        <externalId>false</externalId>
-        <label>Amount</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>AssistantName</fullName>
@@ -240,14 +180,6 @@
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Flag__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Flag</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -340,14 +272,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PB_scheduler_recurring_date__c</fullName>
-        <externalId>false</externalId>
-        <label>PB scheduler recurring date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>DateTime</type>
-    </fields>
-    <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -359,14 +283,6 @@
     <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Want_to_hear_more__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Want to hear more</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>
@@ -412,7 +328,6 @@
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Email_Type__c</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
@@ -430,7 +345,6 @@
         <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Email_Type__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
