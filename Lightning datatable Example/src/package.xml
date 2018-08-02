@@ -5,5 +5,9 @@
         <members>AccountManagerTest</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>copado__Admin_Email</members>
+        <name>CustomLabel</name>
+    </types>
     <version>42.0</version>
 </Package>
