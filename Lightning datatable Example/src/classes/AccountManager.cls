@@ -11,6 +11,8 @@ global static account getAccount(){
         
         String accID = req.requestURI.substringBetween('/Accounts/','/contacts');
         
+        String name;
+        
        
         
         Account[] acc= [select id,name, (select id , lastname from contacts) from account where id = :accID];
