@@ -2,6 +2,4 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tabs>standard-Chatter</tabs>
-    <tabs>Session__c</tabs>
-    <tabs>Speaker__c</tabs>
 </CustomApplication>
