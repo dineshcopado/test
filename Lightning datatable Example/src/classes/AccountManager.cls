@@ -13,6 +13,8 @@ global static account getAccount(){
         
         String name;
         
+        String lastName;
+        
         String firstName;
        
         
