@@ -7,6 +7,4 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>Session__c</tabs>
-    <tabs>Speaker__c</tabs>
 </CustomApplication>
