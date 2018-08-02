@@ -177,15 +177,7 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Session__c</tabs>
-    <tabs>Speaker__c</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>Session__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Speaker__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

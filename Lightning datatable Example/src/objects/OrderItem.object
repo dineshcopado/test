@@ -64,11 +64,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>QuoteLineItemId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>ServiceDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
