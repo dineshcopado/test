@@ -15,6 +15,8 @@ global static account getAccount(){
         
         String lastName;
         
+        String secondName;
+        
        
         
         Account[] acc= [select id,name, (select id , lastname from contacts) from account where id = :accID];
