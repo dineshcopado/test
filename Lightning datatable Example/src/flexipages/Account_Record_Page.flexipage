@@ -17,10 +17,10 @@
             <componentName>accDisplay</componentName>
         </componentInstances>
         <componentInstances>
-            <componentName>DTshowComp</componentName>
+            <componentName>standardRecordPageNav</componentName>
         </componentInstances>
         <componentInstances>
-            <componentName>standardRecordPageNav</componentName>
+            <componentName>lightningDT</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>main</name>

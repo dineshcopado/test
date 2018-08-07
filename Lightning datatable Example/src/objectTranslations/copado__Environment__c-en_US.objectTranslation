@@ -79,4 +79,8 @@
             <translation><!-- Scratch Org --></translation>
         </picklistValues>
     </fields>
+    <webLinks>
+        <label><!-- Find_Replace_Rule_Editor --></label>
+        <name>copado__Find_Replace_Rule_Editor</name>
+    </webLinks>
 </CustomObjectTranslation>

@@ -1,4 +1,4 @@
-@isTest
+@isTest(seeAllData=true)
 private class AccountManagerTest {
 
     private static testMethod void getAccountTest1() {

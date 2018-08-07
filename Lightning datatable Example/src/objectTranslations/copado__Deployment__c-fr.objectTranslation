@@ -8,6 +8,14 @@
         <plural>true</plural>
         <value><!-- Deployment --></value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CustomFields --></label>
+        <name>CustomFields</name>
+    </fieldSets>
     <fields>
         <label><!-- Build Task --></label>
         <name>copado__Build_Task__c</name>
@@ -120,4 +128,12 @@
     <gender><!-- Masculine --></gender>
     <nameFieldLabel><!-- Deployment Name --></nameFieldLabel>
     <startsWith><!-- Consonant --></startsWith>
+    <webLinks>
+        <label><!-- Cancel_Deployment --></label>
+        <name>copado__Cancel_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deploy --></label>
+        <name>copado__Deploy</name>
+    </webLinks>
 </CustomObjectTranslation>
