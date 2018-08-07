@@ -1,3 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>B7YZe8Tx9RRl</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>B7YZe8Tx9RRl</shortDescription>
+        <value>acme_ag__c</value>
+    </labels>
+    <labels>
+        <fullName>R39WRHM7SqOG</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>R39WRHM7SqOG</shortDescription>
+        <value>comments_or_suggestions__c</value>
+    </labels>
+    <labels>
+        <fullName>WkK7IBZz9Efh</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>WkK7IBZz9Efh</shortDescription>
+        <value>like_Acme_AG__c</value>
+    </labels>
+    <labels>
+        <fullName>YMkAlgYy4fOx</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>YMkAlgYy4fOx</shortDescription>
+        <value>email__c</value>
+    </labels>
+    <labels>
+        <fullName>gVW5ACAZokV9</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>gVW5ACAZokV9</shortDescription>
+        <value>Name__c</value>
+    </labels>
+</CustomLabels>
