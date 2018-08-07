@@ -9,4 +9,8 @@
         <label><!-- Value --></label>
         <name>copado__Value__c</name>
     </fields>
+    <validationRules>
+        <errorMessage><!-- Value is required --></errorMessage>
+        <name>copado__Value_is_required</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -8,7 +8,8 @@
             var state = response.getState();
             if (state === "SUCCESS" ) {
                 var resultData = response.getReturnValue();
-                console.log('resultData..'+resultData);
+                debugger;
+                console.log('resultData..'+JSON.stringify(resultData));
                 component.set("v.data", resultData);
                
             }

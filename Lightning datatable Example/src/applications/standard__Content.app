@@ -6,4 +6,6 @@
     <tabs>standard-Workspace</tabs>
     <tabs>standard-ContentSearch</tabs>
     <tabs>standard-ContentSubscriptions</tabs>
+    <tabs>Session__c</tabs>
+    <tabs>Speaker__c</tabs>
 </CustomApplication>

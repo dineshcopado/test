@@ -2,6 +2,7 @@
     doInit : function(component, event, helper) {
        
         helper.getColumnAndAction(component);
+        debugger;
         helper.getContacts(component);
     },
     

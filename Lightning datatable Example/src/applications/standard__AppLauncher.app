@@ -3,4 +3,7 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <tabs>standard-AppLauncher</tabs>
+    <tabs>Session__c</tabs>
+    <tabs>Speaker__c</tabs>
+    <tabs>standard-Quote</tabs>
 </CustomApplication>

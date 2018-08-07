@@ -10,9 +10,17 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-home</tabs>
+    <tabs>Session__c</tabs>
+    <tabs>Speaker__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Session__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Speaker__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
