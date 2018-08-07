@@ -14,4 +14,20 @@
         <label><!-- Version --></label>
         <name>copado__Version__c</name>
     </fields>
+    <webLinks>
+        <label><!-- New_Version --></label>
+        <name>copado__New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Promote_Version --></label>
+        <name>copado__Promote_Version</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quick_Run --></label>
+        <name>copado__Quick_Run</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rollback_to_Previous_Version --></label>
+        <name>copado__Rollback_to_Previous_Version</name>
+    </webLinks>
 </CustomObjectTranslation>

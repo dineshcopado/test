@@ -22,4 +22,8 @@
         <label><!-- View In Git --></label>
         <name>copado__View_In_Git__c</name>
     </fields>
+    <webLinks>
+        <label><!-- Merge_Version --></label>
+        <name>copado__Merge_Version</name>
+    </webLinks>
 </CustomObjectTranslation>

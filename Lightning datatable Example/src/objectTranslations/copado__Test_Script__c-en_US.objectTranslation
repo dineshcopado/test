@@ -90,4 +90,8 @@
         <name>copado__User_Story__c</name>
         <relationshipLabel><!-- Test Scripts (User Story) --></relationshipLabel>
     </fields>
+    <webLinks>
+        <label><!-- Add_Test_Script_Steps --></label>
+        <name>copado__Add_Test_Script_Steps</name>
+    </webLinks>
 </CustomObjectTranslation>
