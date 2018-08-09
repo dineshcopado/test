@@ -4,9 +4,5 @@
         <members>Send_email</members>
         <name>CustomLabel</name>
     </types>
-    <types>
-        <members>copado__Admin_Email</members>
-        <name>CustomLabel</name>
-    </types>
     <version>42.0</version>
 </Package>
